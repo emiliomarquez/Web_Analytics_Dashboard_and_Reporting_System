@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+html {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10em;
+  min-width: 850px;
+}
+body {
+    background-color: rgb(69, 192, 75);
+
+}
+
+
+h1{
+    font-size: 3.3em;
+    margin: auto;
+}
+
+h2{
+    margin: auto;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-style: oblique;
+}
+
+
+.team{
+    background-color: rgb(191, 190, 190);
+    margin-left:20em;
+    margin-right:20em;
+    padding: 0.5em;
+}
+
+.team h3{
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.team h3{
+    text-align: center;
+}
+
+.team p{
+    font-style: italic;
+    text-align: center;
+}
+
+.team h4{
+    margin: 0;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.team ul{
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.hw1{
+    padding-bottom: 1em;
+}
+
+.hw1 ul{
+    background-color:  rgb(191, 190, 190);
+    font-size:1.4em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.hw2 {
+    background-color: rgb(191, 190, 190);
+    display: flex;
+}
+
+
+.hw2 p{
+    font-size:1.4em;
+    background-color:  rgb(191, 190, 190);
+    padding-left: 1em;
+}
+
+h5{
+    padding-top: 2em;
+}
+
+h5, h6, h10, h11 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h10, h11 {
+    font-weight: bold;
+}
+
+.hw3, .hw4{
+    background-color:rgb(191, 190, 190);
+}
+
+.hw2 {
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.hw3, .hw4 {
+    margin-bottom: 2em;
+    padding: 0.1em;
+    padding-left: 0;
+}
+
+h10 {
+    padding-top: 0.5em;
+}
+
+.perl-files{
+    padding-right: 2em;
+}
+
+.c-files, .php-files, .python-files{
+    padding-right: 2em;
+}
+
+
+
+.error-txt{
+    font-size: 4em;
+    margin: 0;
+    background-color: red;
+    text-align: center;
+}
+
+.error-img{
+    margin: 0 auto;
+    display: block;
+}
+
+#cssCheck{
+    color: red;
+}
+
+footer{
+    padding-top: 2em;
+    text-align: center;
+    font-style: italic;
+}
+

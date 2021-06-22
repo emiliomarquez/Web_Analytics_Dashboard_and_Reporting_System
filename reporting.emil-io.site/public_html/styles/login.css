@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+html {
+  padding-top:5em;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10em;
+  min-width: 600px;
+}
+
+@font-face {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/PressStart2P-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Press Start 2P";
+    background-color: black;
+
+}
+
+.login-heading{
+  color: rgb(255, 255, 255);
+    text-shadow: rgb(181 255 5) 0px 0px 5px, rgb(181 255 5) 0px 0px 10px, rgb(181 255 5) 0px 0px 20px, rgb(36 39 41) 0px 0px 40px, rgb(36 39 41) 0px 0px 80px, rgb(36 39 41) 0px 0px 90px, rgb(36 39 41) 0px 0px 100px, rgb(36 39 41) 0px 0px 150px;
+
+}
+
+h1 {
+  font-size: 5vw;
+  text-decoration:none;
+  padding-bottom: 0.5em;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color:limegreen;
+
+
+
+  
+}
+
+.login-box {
+    /*background-color: rgb(191, 190, 190); */
+    text-align: center;
+}
+
+.user-input{
+   color:white;
+   padding-bottom:5em;
+    
+}
+
+.pass-input{
+  color: white;
+
+}
+
+.login-button{
+  font-family: "Press Start 2P";
+  font-size: 1.4em;
+
+
+}
+
+.pass-field, .user-field{
+  height: 2em;
+  width:30em;
+  font-family: "Press Start 2P";
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom:5em;
+
+  font-size: 0.5em;
+  color: white;
+  text-align: center;
+}
+
+.error-message{
+  text-align:center;
+  color:red;
+  padding-bottom: 2em;
+  
+}
+
+/*
+a{
+  color:greenyellow;
+
+  text-decoration: none;
+}
+
+
+a:hover{
+  color:limegreen;
+}
+*/
+
+.logout-message{
+  padding-bottom:2em;
+}
+
+a{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  padding: 1em 1.5em;
+  color: greenyellow;
+
+}
+a:hover{
+  
+  color:green;
+  background-color: greenyellow;
+}
+
+.report-h2 {
+  color: limegreen;
+  line-height: 1.4em;
+
+}
+
+.report-p{
+  color: greenyellow;
+  font-size: 0.6em;
+  line-height: 1.6em;
+
+}
