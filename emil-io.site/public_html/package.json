@@ -1,0 +1,27 @@
+{
+  "name": "public_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.9",
+    "save": "^2.4.0",
+    "sessid": "^0.1.1",
+    "zinggrid": "^1.2.5"
+  }
+}

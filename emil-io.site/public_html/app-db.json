@@ -1,0 +1,60 @@
+{
+    "static": [
+      { "id": 1, 
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36", 
+        "userLang": "en-US",
+        "cookiesEnabled": 1,
+        "jsEnabled": 1,
+        "imagesEnabled": 1,
+        "cssEnabled": 1,
+        "screenDim": {
+          "screen_x":1280,
+          "screen_y":800
+        },
+        "windowDim": {
+          "window_x":1248,
+          "window_y":777
+        },
+        "networkType": "3g"
+      }
+    ],
+    "perf": [
+      { "id": 1, 
+        "timingObject": {
+          "connectEnd": 1620972303094,
+          "connectStart": 1620972303094,  
+          "domComplete": 1620972303901,
+          "domContentLoadedEventEnd": 1620972303592,
+          "domContentLoadedEventStart": 1620972303592,
+          "domInteractive": 1620972303589,
+          "domLoading": 1620972303285,
+          "domainLookupEnd": 1620972303094,
+          "domainLookupStart": 1620972303094,
+          "fetchStart": 1620972303094,
+          "loadEventEnd": 1620972303910,
+          "loadEventStart": 1620972303901,
+          "navigationStart": 1620972303089,
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "requestStart": 1620972303101,
+          "responseEnd": 1620972303273,
+          "responseStart": 1620972303272,
+          "secureConnectionStart": 0,
+          "unloadEventEnd": 1620972303281,
+          "unloadEventStart": 1620972303281
+        }, 
+        "pageStartLoadTime": 1620972303901,
+        "pageEndLoadTime": 1620972303089,
+        "pageTotalLoadTime": 812
+      }
+    ],
+    "activity": [
+      { 
+      "id": 1,
+      "cursorPosition": {
+        "mouse_x": 4,
+        "mouse_y":5
+      }
+      }
+    ]
+  }
