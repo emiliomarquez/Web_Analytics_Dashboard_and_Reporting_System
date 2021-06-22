@@ -1,4 +1,4 @@
-# Web Analyitcs Final Project - README
+# Web Analytics Final Project - README
 _Name: Emilio Marquez-Fernandez_
 
 ## Link to website: [emil-io.site](https://emil-io.site/)
