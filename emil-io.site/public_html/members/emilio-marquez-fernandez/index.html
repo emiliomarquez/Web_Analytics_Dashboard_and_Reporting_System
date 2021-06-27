@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Emilio Marquez Fernandez's resume in a website format" />
+
+  <title>Emilio Marquez Fernandez</title>
+  <link href="images/favicon.ico" rel="icon" />
+  <link href="./styles/styles.css" rel="stylesheet" />
+  
+  <script src="./../../../collector.js"></script>
+  <link href="./../../../styles/checkDisabledCss.css" rel="stylesheet">
+  
+
+
+
+</head>
+
+<body>
+  <div id="cssCheck"></div>
+  <img id="flag" src="./../../../images/clear.gif" alt="">
+  <nav class="navbar">
+    <a id="site-logo" href="/">emilio marquez</a>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+
+
+    <!--
+    <figure>
+      <img src="./images/self-portrait.png"
+      alt="Self portrait of Emilio Marquez-Fernandez." width="660">
+      <figcaption>Self-portrait taken sometime in 2018 at UCSC</figcaption>
+    </figure>
+  -->
+    
+    <section class="portraits">
+      <h2 class="self-portraits">Self Portraits</h2>
+          <picture id="portrait-a">
+            <source media="(min-width:500px)" srcset="./images/forest-portrait-a-small.jpg">
+            <source media="(min-width:1024px)" srcset="./images/forest-portrait-a-medium.jpg">
+            <img src="./images/forest-portrait-a-large.jpg" alt="Self portrait in the forest" class="portrait-a">
+          </picture>
+          <picture>
+            <source media="(min-width:500px)" srcset="./images/forest-portrait-b-small.jpg">
+            <source media="(min-width:1024px)" srcset="./images/forest-portrait-b-medium.jpg">
+            <img src="./images/forest-portrait-b-large.jpg" alt="Another self portrait in the forest" class="portrait-b">
+          </picture>
+    </section>
+
+
+  <main class="main">
+
+    <article class="about-me">
+      <header>
+        <h1 id="about">About Me</h1>
+      </header>
+      <p>My name is Emilio Marquez-Fernandez. I am the sole developer of this site.<br>
+      I am 22 years old and come from a small town in southern California named
+      Brawley. <br> I am currently studying Computer Science at the University of
+      California, San Diego. <br> I plan to go into a software engineering related field
+      after graduating.<br> During my free time I like to engage in photography,
+      exercise, or video games.
+      </p>
+      <h3>Education</h3>
+      <p>Major: Computer Science (B.S.)</p>
+      <p>Universities attended:</p>
+      <ul>
+        <li>University of California, Santa Cruz</li>
+        <li>University of California, San Diego</li>
+      </ul>
+      <!-- <a href="./pdf/resume.pdf">View my Resume</a> -->
+
+    </article>
+
+    <section class="my-skills">
+      <h2 id="skills">Skills</h2>
+      <h4>Programming Languages</h4>
+      <table>
+        <colgroup>
+          <col span="2" class="lang-and-experience">
+        </colgroup>
+        <tr>
+          <th scope="col" style="color:lime;">Language</th>
+          <th scope="col" style="color:lime;">Experience</th>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>HTML,CSS</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+
+    </section>
+
+    <section class="projects">
+      <!-- NOTE: All projects below are not my projects.
+      They are instead placeholders for when I create my own projects -->
+      <h2 id="projects">Projects</h2>
+      <ol>
+        <li class="project-1">
+          <!-- Note: I do not own the logo used in picture tag directly below.
+          This logo specifically belongs to the creator of it, Shawn Gomos.  -->
+          <picture>
+            <source media="(min-width:750px)" srcset="./images/mindparse-icon.png">
+            <img src="./images/mindparse-icon.png" alt="MindParse Logo" width="100" class="project-1-image">
+          </picture>
+          <ul>
+            <li>MindParse</li>
+            <li>v1 released in 12/2020</li>
+            <li>Google Chrome extension that allows users to track their habits, mood, and make a to-do-list of tasks.</li>
+            <li>Used: HTML, CSS, Javascript, React, Firebase</li>
+            <li><a href="https://chrome.google.com/webstore/detail/mindparse/npceanllengiephifkoagdngafflekdm?hl=en">View Project</a></li>
+            <li><a href="https://github.com/emiliomarquez/MindParse">Project Code</a></li>
+          </ul>
+        </li>
+
+        <li class="project-2">
+          <!-- NOTE: I do not own the logo used in picture tag directly below.
+          This logo specifically belongs to Gamma Zeta Alpha Fraternity, Inc.. -->
+          <picture>
+            <source media="(min-width:750px)" srcset="./images/gza-icon.png">
+            <img src="./images/gza-icon.png" alt="Gamma Zeta Alpha Logo" width="250" class="project-2-image">
+          </picture>
+          <ul>
+            <li>gammazetaalpha.ucsd.edu</li>
+            <li>v1 released in 09/2020</li>
+            <li>Website made to publicize various information (e.g. future events, current members, scholarship) concerning Gamma Zeta Alpha Fraternity, Inc.</li>
+            <li>Languages Used: HTML, CSS, Javascript</li>
+            <li><a href="https://gammazetaalpha.ucsd.edu/">View Project</a></li>
+            <li><a href="https://github.com/emiliomarquez/GZA-new-website">Project Code</a></li>
+          </ul>
+        </li>
+
+        <li class="project-2">
+          <!-- NOTE: I do not own the logo used in picture tag directly below.
+          This logo specifically belongs to Airbnb. -->
+          <picture>
+            <source media="(min-width:750px)" srcset="./images/airbnb-logo.png">
+            <img src="./images/airbnb-logo.png" alt="Airbnb Logo" width="250" class="project-2-image">
+          </picture>
+          <ul>
+            <li>Analysis on San Francisco Airbnb Housing Data</li>
+            <li>released in 03/2020</li>
+            <li>A report that was made to identify a correlation between Airbnb housing pricing and nearby restaurant quality, indicated by the inspection scores, in San Francisco.</li>
+            <li>Used: Python, Jupyter Notebook, HTML</li>
+            <li><a href="https://github.com/emiliomarquez/Analysis-on-Airbnb-Housing-Data/blob/main/FinalReport-AirbnbHousing.ipynb">View Project</a></li>
+            <li><a href="https://github.com/emiliomarquez/Analysis-on-Airbnb-Housing-Data">Project Code</a></li>
+          </ul>
+        </li>
+
+      </ol>
+    </section>
+
+
+    <section class="contact-form">
+      <h3 id="contact">Let's get in touch</h3>
+
+      <form action="mailto:e9marque@ucsd.edu" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Contact form</legend>
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="email" placeholder="Email Address">
+          <br />
+          <input list="subjects" name="subject" placeholder="Subject" id="subject" size="50">
+          <datalist id="subjects">
+            <option value="Career Opportunity">
+            <option value="Question about Project(s)">
+            <option value="Problem(s) with Website">
+          </datalist>
+          <br />
+          <label for="message">Message:</label>
+          <br />
+          <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter Message Here."></textarea>
+          <br />
+          <input type="submit" value="Send Email">
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <aside class="contact-info">
+    <a href="mailto:e9marque@ucsd.edu">email</a>
+    <a href="https://www.linkedin.com/in/~emilio/">linkedin</a>
+    <a href="https://github.com/emiliomarquez">github</a>
+  </aside>
+
+
+  <footer>
+    <p> © 2021. Coded by Emilio Marquez-Fernandez.</p>
+  </footer>
+
+</body>
+
+
+</html>

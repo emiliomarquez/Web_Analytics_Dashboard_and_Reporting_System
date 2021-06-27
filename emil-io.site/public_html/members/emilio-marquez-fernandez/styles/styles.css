@@ -1,0 +1,468 @@
+/* font-family: 'Press Start 2P', cursive; */
+* {
+  box-sizing: border-box;
+}
+html {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: black;
+  color:#D0F0C0;
+}
+
+.main p, ul, ol {
+  justify-content: flex-start   !important ;
+  text-align: left !important;
+}
+
+
+@font-face {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("truetype");
+}
+
+.navbar {
+  font-family: "Press Start 2P";
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+#site-logo {
+  display: inline-block;
+  font-size: 5vw;
+  text-decoration:none;
+  padding-bottom: 30px;
+
+
+  color: #B0FC38;
+  text-shadow:
+    0 0 5px #B0FC38,
+    0 0 10px #B0FC38,
+    0 0 20px #B0FC38,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 90px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff;
+}
+
+#site-logo:hover {
+  color: #66ff00;
+}
+
+.nav-links {
+  margin:0;
+  padding: 0;
+  padding-right: 5px;
+  display: flex;
+  align-self: flex-start;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  display: inline-block;
+  font-size: 3vw;
+  padding-right: 34px;
+
+  text-decoration: none;
+  color: limegreen;
+}
+
+.nav-links a:hover {
+  color: greenyellow;
+}
+
+.portraits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+
+.portrait-a, .portrait-b {
+    height: 25vh;
+    width: 37vh;
+}
+
+.contact-info {
+  font-family: "Press Start 2P";
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  padding-top: 40px;
+}
+
+.contact-info a {
+  padding-right: 5px;
+
+  font-size: 2.5vw;
+  padding-right: 30px;
+
+  text-decoration: none;
+  color: limegreen;
+}
+
+.contact-info a:hover {
+  color: greenyellow;
+}
+
+.about-me, .my-skills, .projects, .contact-form, footer {
+  font-family: "Press Start 2P";
+}
+
+
+
+
+
+.about-me h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: limegreen;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.my-skills h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: limegreen;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+
+.about-me p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+  color:#D0F0C0;
+  line-height: 1.8;
+}
+
+.about-me h3 {
+  display: flex;
+  font-size: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: limegreen;
+}
+
+.about-me ul li {
+  font-size: 1vw;
+  color:#D0F0C0;
+  list-style-position: inside;
+}
+
+.my-skills table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-skills  th, td {
+  border: 1px solid green;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.my-skills h4 {
+  font-size: 1.6vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: green;
+}
+
+.projects h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: limegreen;
+  text-align: center;
+  padding-bottom: 5px;
+
+}
+
+.projects ol {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+.projects ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.projects ul li {
+  line-height: 1.6;
+}
+
+.project-1-image, .project-2-image {
+  height: 10vh;
+  width: 10vh;
+  /* code below needed to keep image to left side */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+/*
+.project-2-image {
+  height: 10vh;
+  width: 10vh;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+*/
+
+.project-1, .project-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+/*
+.project-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+*/
+
+.project-1 ul li:nth-child(2) {
+  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.project-2 ul li:nth-child(2) {
+  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.project-1 ul li:nth-child(3),ul li:nth-child(4) {
+  color:#98fb98;
+  line-height: 1.8;
+}
+
+.project-2 ul li:nth-child(3),ul li:nth-child(4) {
+  color:#98fb98;
+  line-height: 1.8;
+}
+
+.project-1 ul li:nth-child(4) {
+  color:#98fb98;
+  line-height: 1.8;
+  padding-bottom: 40px;
+}
+
+.project-2 ul li:nth-child(4) {
+  color:#98fb98;
+  line-height: 1.8;
+  padding-bottom: 40px;
+}
+
+.project-1 a {
+  text-decoration: none;
+  background-color: green;
+  padding: 1em 1.5em;
+  color: greenyellow;
+}
+
+.project-2 a {
+  text-decoration: none;
+  background-color: green;
+  padding: 1em 1.5em;
+  color: greenyellow;
+}
+
+.project-1 a:hover {
+  color:green;
+  background-color:greenyellow;
+}
+
+.project-2 a:hover {
+  color:green;
+  background-color:greenyellow;
+}
+
+.project-1 a:active {
+  background-color:#66ff00;
+}
+
+.project-2 a:active {
+  background-color:#66ff00;
+}
+
+.project-1 ul li:nth-child(5) {
+  float: left;
+}
+
+.project-2 ul li:nth-child(5) {
+  float: left;
+}
+
+.project-1 ul li:nth-child(5), ul li:nth-child(6) {
+  padding-right: 50px;
+}
+
+.project-2 ul li:nth-child(5), ul li:nth-child(6) {
+  padding-right: 50px;
+}
+
+
+.contact-form {
+  padding-top: 100px;
+}
+.contact-info {
+  padding-top: 50px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.self-portraits{
+  display:none;
+}
+
+/* REMINDER: Design for MOBILE first */
+@media only screen and (min-width: 1124px) {
+
+  .navbar {
+    flex-direction: row;
+  }
+
+  #site-logo {
+    font-size: 2vw;
+    padding-bottom: 0;
+  }
+  .nav-links a {
+    font-size: 1.1vw;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: limegreen;
+  }
+
+  .portrait-a, .portrait-b {
+      height: 50vh;
+      width: 75vh;
+  }
+
+  .contact-info  {
+    justify-content: center;
+  }
+
+  .contact-info a {
+    font-size: 1.5vw;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  .about-me p {
+    font-size: 1vw;
+  }
+
+  .about-me ul li {
+    font-size: 1vw;
+    list-style-position: inside;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .main h1, h2, h3 {
+    justify-content: flex-start   !important ;
+    text-align: left !important;
+  }
+
+  .main p {
+    justify-content: center  !important ;
+
+  }
+
+
+  .project-1 {
+    flex-wrap: nowrap;
+  }
+
+  .project-2 {
+    flex-wrap: nowrap;
+  }
+
+  .project-1-image {
+    height: 35vh;
+    width: 35vh;
+  }
+
+  .project-2-image {
+    height: 35vh;
+    width: 35vh;
+  }
+
+  .projects ul {
+    padding-left: 20px;
+    padding-top: 0;
+  }
+
+  .project-1 ul li:first-child {
+    font-size: 3vw;
+  }
+
+  .project-2 ul li:first-child {
+    font-size: 3vw;
+  }
+
+  .project-1 ul li:nth-child(2) {
+    font-size:0.8vw;
+    font-style: italic;
+  }
+
+  .project-2 ul li:nth-child(2) {
+    font-size:0.8vw;
+    font-style: italic;
+  }
+
+  .project-1 ul li:nth-child(3),ul li:nth-child(4) {
+    font-size:1vw;
+  }
+
+  .project-2 ul li:nth-child(3),ul li:nth-child(4) {
+    font-size:1vw;
+  }
+
+
+
+
+}

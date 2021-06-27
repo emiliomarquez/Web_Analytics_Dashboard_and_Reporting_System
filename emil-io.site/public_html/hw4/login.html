@@ -1,0 +1,44 @@
+<!-- login.html --> 
+
+<!DOCTYPE html>
+<?php session_start(); ?>
+<html lang="en">
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analytics App Login</title>
+  <link rel="icon" href="./../images/favicon.ico">
+
+  <link href="./../styles/login.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <h1 align="center">Analytics Login</h1>
+
+    <div id="errMsg">
+        <?php if(!empty($_SESSION['errMsg'])) { echo $_SESSION['errMsg']; } ?>
+    </div>
+    <?php unset($_SESSION['errMsg']); ?>
+
+    <section class="login-box">
+        <!-- <form action="/api/users/auth/sign_in" method="POST" id="login-form"> -->
+        <form action="./login-redirect.php" method="POST" id="login-form">
+            <label class="user-input">Username (or email address):<input type="text" name="username" name="email" autocomplete="off"></label>
+            <br>
+            <label class="pass-input">Password<input type="text" name="password" autocomplete="off"></label>
+            <br>
+            <input type="submit" name="submit" value="Login">
+        </form>
+    </section>
+
+
+</body>
+
+</html>
+
+
+  
